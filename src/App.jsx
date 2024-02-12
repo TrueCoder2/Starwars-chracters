@@ -61,8 +61,8 @@ function App() {
   return (
     <div className="App">
       <div className="container">
-      <h1>Module 11</h1>
-      <button onClick={fetchData}>Generate Details</button>
+      <h1>Starwars Characters</h1>
+      <button onClick={fetchData}>Get Character</button>
       { data ? (
       <div className="info-wrapper">
         <div className="Box-img">
